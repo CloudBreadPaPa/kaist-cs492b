@@ -1,5 +1,6 @@
 # kaist-cs492b
 Hands on document for kaist CS492B class - 20160927
+
 Short URL : https://aka.ms/cs492b
 
 ## Cloud and Microsoft Azure
