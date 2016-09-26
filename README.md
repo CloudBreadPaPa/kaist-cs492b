@@ -42,14 +42,17 @@ In this class VM - Ubuntu environment, Python 2.7 and Python 3.5 is already on i
 whereis python
 ```
 
-To copy Python files on SSH coeection, I suggest SCP command  
+To copy Python files on SSH connection, I suggest SCP command  
 https://en.wikipedia.org/wiki/Secure_copy  
 
-Or, you can choice to sintall ftpd  
+Or, you can choice to install tiny ftpd, vsftpd  
 ```
 sudo apt-get install vsftpd
 ```
-set up vsftpd.conf file and open port in Azure Portal Network Security Group.  
+set up vsftpd.conf file  
+http://www.krizna.com/ubuntu/setup-ftp-server-on-ubuntu-14-04-vsftpd/
+
+Open VM inbound port in Azure Portal Network Security Group.  
 Opening ports to a VM in Azure using the Azure Portal  
 https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-nsg-quickstart-portal/
 
@@ -69,8 +72,8 @@ Get started with the Azure Batch Python client
 https://azure.microsoft.com/en-us/documentation/articles/batch-python-tutorial/
 
 ## Technical community
-stackoverflow tag with "Azure"  
-http://stackoverflow.com/questions/tagged/azure  
-
 Microsoft Forum category with "Microsoft Azure Platform"  
 https://social.msdn.microsoft.com/Forums  
+
+stackoverflow tag with "Azure"  
+http://stackoverflow.com/questions/tagged/azure  
