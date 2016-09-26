@@ -34,7 +34,7 @@ With an SSH keypair you can create Virtual Machines on Azure that default to usi
 Create SSH keys on Linux and Mac for Linux VMs in Azure
 https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-mac-create-ssh-keys/
 
-## Reset SSH access 
+## Reset SSH access
 Manage users, SSH, and check or repair disks on Azure Linux VMs using the VMAccess Extension
 https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-using-vmaccess-extension/
 
