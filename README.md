@@ -8,7 +8,8 @@ Microsoft Azure : https://azure.microsoft.com
 
 ## Azure Portal
 The Microsoft Azure portal is a central place where you can provision and manage your Azure resources.  
-Azure portal : https://portal.azure.com/  
+Azure new portal : https://portal.azure.com/  
+Azure classic portal : https://manage.windowsazure.com  
 Microsoft Azure portal overview  
 https://azure.microsoft.com/en-us/documentation/articles/azure-portal-overview/
 
@@ -25,7 +26,13 @@ https://azure.microsoft.com/en-us/pricing/
 This link shows you how to use the Azure portal to create a Linux Virtual Machine quickly. The only requirements are an Azure account and SSH public and private key files.  
 
 Create a Linux VM on Azure using the Portal  
-https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-quick-create-portal/
+https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-quick-create-portal/  
+
+Appendix :  
+Create a virtual machine running Windows in the Azure classic portal  
+https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-tutorial/  
+How to set up endpoints on a classic Windows virtual machine in Azure  
+https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-setup-endpoints/
 
 ## SSH key creation
 With an SSH keypair you can create Virtual Machines on Azure that default to using SSH keys for authentication, eliminating the need for passwords to log in.  
