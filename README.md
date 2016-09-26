@@ -1,5 +1,5 @@
 # kaist-cs492b
-Hands on document for kaist CS492B class - 20160927  
+This repo is Kaist university lecture cs492b training hands on document.  
 Short URL : https://aka.ms/cs492b
 
 ## Cloud and Microsoft Azure
@@ -14,10 +14,8 @@ https://azure.microsoft.com/en-us/documentation/articles/azure-portal-overview/
 
 ## Azure VM sizes
 This article describes the available sizes and options for the Azure virtual machines you can use to run your Windows apps and workloads.  
-
 Sizes for virtual machines in Azure  
 https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-sizes/
-
 
 ## Azure pricing & usage management
 Estimate your expected monthly bill using our Pricing Calculator, and track your actual account usage and bill at any time using the billing portal.  
@@ -39,13 +37,31 @@ Manage users, SSH, and check or repair disks on Azure Linux VMs using the VMAcce
 https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-using-vmaccess-extension/
 
 ## Python script execution
+In this class VM - Ubuntu environment, Python 2.7 and Python 3.5 is already on it.  
+```
+whereis python
+```
+
+To copy Python files on SSH coeection, I suggest SCP command  
+https://en.wikipedia.org/wiki/Secure_copy  
+
+Or, you can choice to sintall ftpd  
+```
+sudo apt-get install vsftpd
+```
+set up vsftpd.conf file and open port in Azure Portal Network Security Group.  
+Opening ports to a VM in Azure using the Azure Portal  
+https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-nsg-quickstart-portal/
+
 
 ## HDInsight or Hadoop VM
+Azure HDInsight uses the Hortonworks Data Platform (HDP) Hadoop distribution. HDInsight deploys and provisions managed Apache Hadoop clusters in the cloud, providing a software framework designed to process, analyze, and report on big data with high reliability and availability.  
+What is Hadoop in the cloud? An introduction to the Hadoop ecosystem in HDInsight  
+https://azure.microsoft.com/en-us/documentation/articles/hdinsight-hadoop-introduction/  
 
 ## Azure Batch
-
 Azure Batch enables you to run large-scale parallel and high-performance computing (HPC) applications efficiently in the cloud.  
-https://azure.microsoft.com/en-us/documentation/articles/batch-technical-overview/
+https://azure.microsoft.com/en-us/documentation/articles/batch-technical-overview/  
 
 It's a platform service that schedules compute-intensive work to run on a managed collection of virtual machines, and can automatically scale compute resources to meet the needs of your jobs.  
 
@@ -54,7 +70,7 @@ https://azure.microsoft.com/en-us/documentation/articles/batch-python-tutorial/
 
 ## Technical community
 stackoverflow tag with "Azure"  
-http://stackoverflow.com/questions/tagged/azure
+http://stackoverflow.com/questions/tagged/azure  
 
 Microsoft Forum category with "Microsoft Azure Platform"  
-https://social.msdn.microsoft.com/Forums
+https://social.msdn.microsoft.com/Forums  
