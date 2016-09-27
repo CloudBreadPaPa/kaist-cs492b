@@ -56,10 +56,11 @@ Or, you can choice to install tiny ftpd, vsftpd
 ```
 sudo apt-get install vsftpd
 ```
-set up vsftpd.conf file  
+By default, vsftpd allow access SFTP and your logon name. If you need custom configuration, set up vsftpd.conf and ftpuser file located in /etc directory(depends on Linux dist).  
 http://www.krizna.com/ubuntu/setup-ftp-server-on-ubuntu-14-04-vsftpd/
 
-Open VM inbound port in Azure Portal Network Security Group.  
+
+By default, VM inbound all port is blocked, except SSH(port 22). To open another VM inbound port(ex. HTTP 80 port), process in Azure Portal "Network Security Group".  
 Opening ports to a VM in Azure using the Azure Portal  
 https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-nsg-quickstart-portal/
 
