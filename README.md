@@ -61,8 +61,9 @@ http://www.krizna.com/ubuntu/setup-ftp-server-on-ubuntu-14-04-vsftpd/
 
 By default, all VM inbound port is blocked, except SSH(port 22). To open another VM inbound port(ex. HTTP 80 port), process in Azure Portal "Network Security Group".  
 Opening ports to a VM in Azure using the Azure Portal  
-https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-nsg-quickstart-portal/
-
+https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-nsg-quickstart-portal/  
+Opening ports to a VM in Azure using the Azure Classic Portal  
+https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-classic-setup-endpoints/  
 
 ## HDInsight or Hadoop VM
 Azure HDInsight uses the Hortonworks Data Platform (HDP) Hadoop distribution. HDInsight deploys and provisions managed Apache Hadoop clusters in the cloud, providing a software framework designed to process, analyze, and report on big data with high reliability and availability.  
