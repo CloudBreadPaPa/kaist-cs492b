@@ -52,15 +52,14 @@ whereis python
 To copy Python files on SSH connection, I suggest SCP command  
 https://en.wikipedia.org/wiki/Secure_copy  
 
-Or, you can choice to install tiny ftpd, vsftpd  
+Or, to upload Python scripts or any files, you can choice to install tiny ftpd, vsftpd  
 ```
 sudo apt-get install vsftpd
 ```
-By default, vsftpd allow access SFTP and your logon name. If you need custom configuration, set up vsftpd.conf and ftpuser file located in /etc directory(depends on Linux dist).  
+If you need custom configuration for vsftpd, set up vsftpd.conf and ftpuser file located in /etc directory(depends on Linux dist).  
 http://www.krizna.com/ubuntu/setup-ftp-server-on-ubuntu-14-04-vsftpd/
 
-
-By default, VM inbound all port is blocked, except SSH(port 22). To open another VM inbound port(ex. HTTP 80 port), process in Azure Portal "Network Security Group".  
+By default, all VM inbound port is blocked, except SSH(port 22). To open another VM inbound port(ex. HTTP 80 port), process in Azure Portal "Network Security Group".  
 Opening ports to a VM in Azure using the Azure Portal  
 https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-nsg-quickstart-portal/
 
